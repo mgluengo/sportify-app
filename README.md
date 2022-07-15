@@ -9,6 +9,8 @@ Sportify is the ultimate app for sports lovers!
 
 The app **finds venues for specific sports** wherever you are, keeps you up to date with the latest **sports events** in your area, and suggests the perfect **playlists from Spotify**, so you can give it all while you work out! :running_woman: :notes:
 
+![mockup](https://raw.githubusercontent.com/mgluengo/sportifyapp/master/images/mockup.png "Mockup")
+
 ## Challenge
 
 - :woman_student: **Context**: 3rd project for the **Data Analytics Bootcamp** at Ironhack (April 2022). 
@@ -33,16 +35,22 @@ The app **finds venues for specific sports** wherever you are, keeps you up to d
 - [Spotify API](https://developer.spotify.com/documentation/web-api/) *(Used 4 endpoints: Categories, Playlists, Tracks, and Devices)*
 - [World's Marathons (web scraped)](https://worldsmarathons.com/)
 
-## How it works (user flow)
+## How it works
 
 Based on the user's location and the selected workout, Sportify:
 1. **Shows  sports venues** nearby to practice the sport they choose.
 2. **Shows sports events** happening near them sorted by date.
 3. Suggests **lists of songs** from Spotify to play while they work out + automatically plays songs on their device (authentication needed).
 
-## How it works (behind the scenes)
+### User flow
 
-text
+![userflow](https://raw.githubusercontent.com/mgluengo/sportifyapp/master/images/userflow.png "Userflow")
+
+### Behind the scenes
+
+![sportsvenues](https://raw.githubusercontent.com/mgluengo/sportifyapp/master/images/sportsvenues.png "Venues")
+
+![playlists](https://raw.githubusercontent.com/mgluengo/sportifyapp/master/images/sportsmusic.png "Playlist")
 
 ## MVP Limitations
 
