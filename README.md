@@ -11,11 +11,11 @@ The app **finds venues for specific sports** wherever you are, keeps you up to d
 
 ## Challenge
 
-- :woman_student:**Context**: 3rd project for the **Data Analytics Bootcamp** at Ironhack (April 2022). 
+- :woman_student: **Context**: 3rd project for the **Data Analytics Bootcamp** at Ironhack (April 2022). 
 
-- :dart:**Goal**: put our knowledge of **APIs** and **web scraping** into practice. 
+- :dart: **Goal**: put our knowledge of **APIs** and **web scraping** into practice. 
 
-- :stopwatch:**Time**: during the bootcamp we worked in **hackathon** mode, so the full project (ideation, design, development, and final pitch) was completed in **3 afternoons**. 
+- :stopwatch: **Time**: during the bootcamp we worked in **hackathon** mode, so the full project (ideation, design, development, and final pitch) was completed in **3 afternoons**. 
 
 
 ## Tech
@@ -36,9 +36,9 @@ The app **finds venues for specific sports** wherever you are, keeps you up to d
 ## How it works (user flow)
 
 Based on the user's location and the selected workout, Sportify:
-1. Shows  sports venues nearby to practice the sport they choose.
-2. Show the events happening near them sorted by date.
-3. Suggests lists from Spotify to play while they work out. 
+1. **Shows  sports venues** nearby to practice the sport they choose.
+2. **Shows sports events** happening near them sorted by date.
+3. Suggests **lists of songs** from Spotify to play while they work out + automatically plays songs on their device (authentication needed).
 
 ## How it works (behind the scenes)
 
@@ -54,8 +54,8 @@ text
 - **Playlists**: options predefined for sports available in this version.
 
 ### Other limitations
-- Sportify can only be accessed from the terminal.
-- Database to store/access data not built yet (dataframes only). 
+- **UI**: Sportify can only be accessed from the terminal.
+- **Database** to store/access data not built yet (dataframes only). 
 
 ## Next steps
 - **Data**: add sports events and venues for more locations, more music options.
