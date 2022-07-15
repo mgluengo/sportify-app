@@ -48,8 +48,10 @@ Based on the user's location and the selected workout, Sportify:
 
 ### Behind the scenes
 
+Task 1 - Find sports venues
 ![sportsvenues](https://raw.githubusercontent.com/mgluengo/sportifyapp/master/images/sportsvenues.png "Venues")
 
+Task 3 - Suggest playlists for workouts
 ![playlists](https://raw.githubusercontent.com/mgluengo/sportifyapp/master/images/sportsmusic.png "Playlist")
 
 ## MVP Limitations
