@@ -4,7 +4,6 @@
 
 > :point_right: [Find here the full project presentation](https://speakerdeck.com/mgluengo/sportify-app)
 
-</br>
 
 Sportify is the ultimate app for sports lovers!  
 
@@ -12,11 +11,11 @@ The app **finds venues for specific sports** wherever you are, keeps you up to d
 
 ## Challenge
 
-- Context: 3rd project for the **Data Analytics Bootcamp** at Ironhack (April 2022). 
+- :woman_student:**Context**: 3rd project for the **Data Analytics Bootcamp** at Ironhack (April 2022). 
 
-- Goal: put our knowledge of **APIs** and **web scraping** into practice. 
+- :dart:**Goal**: put our knowledge of **APIs** and **web scraping** into practice. 
 
-- Time: during the bootcamp we worked in **hackathon** mode, so the full project (ideation, design, development, and final pitch) was completed in **3 afternoons**. 
+- :stopwatch:**Time**: during the bootcamp we worked in **hackathon** mode, so the full project (ideation, design, development, and final pitch) was completed in **3 afternoons**. 
 
 
 ## Tech
@@ -47,16 +46,31 @@ text
 
 ## MVP Limitations
 
-Text
+### Data limitations
+- **Sports venues**: 
+  - Most common sports only (e.g. running, swimming, yoga).
+  - Decathlon's API data sometimes incomplete/outdated.  
+- **Sports events**: Lisbon only (demo purposes).
+- **Playlists**: options predefined for sports available in this version.
+
+### Other limitations
+- Sportify can only be accessed from the terminal.
+- Database to store/access data not built yet (dataframes only). 
+
+## Next steps
+- **Data**: add sports events and venues for more locations, more music options.
+- Build **database**.
+- User **interfaces** (e.g. smartwatches and smart speaker devices).
+- New **functionalities** (e.g. find sports stores nearby). 
 
 ## Team Members
 
-[![GitHub](https://img.shields.io/badge/GitHub-asier3-FA7343?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/asier3)
+[![GitHub](https://img.shields.io/badge/GitHub-asier3-F7DF1E?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/asier3)
 
-[![GitHub](https://img.shields.io/badge/GitHub-mgluengo-FA7343?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/mgluengo)
+[![GitHub](https://img.shields.io/badge/GitHub-mgluengo-F7DF1E?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/mgluengo)
 
-[![Giada](https://img.shields.io/badge/Giada_Sartori-FA7343?style=for-the-badge&logo=&logoColor=white&labelColor=101010)]()
+[![Giada](https://img.shields.io/badge/Giada_Sartori-F7DF1E?style=for-the-badge&logo=&logoColor=white&labelColor=101010)]()
 
 </br>
 
-> *Sportify: Be active anywhere you go!*
+> *SPORTIFY: BE ACTIVE ANYWHERE YOU GO!*

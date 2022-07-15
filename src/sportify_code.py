@@ -7,13 +7,13 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-from opencage.geocoder import OpenCageGeocode  #must install opencage with pip first
+from opencage.geocoder import OpenCageGeocode  #must install opencage first
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 from getpass import getpass
 import webbrowser
-from termcolor import colored  #must install termcolor package with conda first
+from termcolor import colored  #must install termcolor package first
 
 from IPython import display
 import sys
@@ -40,7 +40,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=client_id,
 # Decathlon 
 url_d = 'https://sportplaces.api.decathlon.com/api/v1/places'
 
-# Webscrapping
+# Web scraping
 places = ['lisboa-green-trail','lisbon-marathon','lisbon-womens-run', 'lisbon-half-marathon']
 url_list = ['https://worldsmarathons.com/marathon/' + place for place in places]
 user_agent = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36'}
@@ -50,9 +50,9 @@ user_agent = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) App
 # 3. DATA EXTRACTION FROM DIFFERENT SOURCES
 
 # 3.1 Get Spotify music categories ids from Spotipy
-## This returns Spotify's categories names and categories ids
-## It is not needed to run the app, but we used it to get categories ids
-## for other endpoints
+'''This returns Spotify's categories names and categories ids
+It is not needed to run the app, but we used it to get categories ids
+for other endpoints'''
 music_categories = sp.categories(limit=50)['categories']['items']
 music_categories_df = pd.DataFrame(music_categories)[['name','id']]
 
@@ -82,7 +82,7 @@ yoga_df = yoga_df[['name','link']]
 yoga_df.index += 1
 
 
-#3.4 Webscrapping 
+#3.4 Web scraping 
 run_events = []
 
 for link in url_list:
@@ -313,7 +313,7 @@ def open_playlist():
             link_music = str(yoga_df.loc[n, 'link'])
             webbrowser.open(link_music, new=2)
             try:
-                sp.start_playback(uris=['spotify:track:6oL6yOWVL8zJfwg2mlkMag'])
+                sp.start_playback(uris=['spotify:track:6oL6yOWVL8zJfwg2mlkMag']) #hardcoded for demo purposes
             except:
                 pass
         else:
@@ -327,7 +327,7 @@ def open_playlist():
             link_music = str(running_df.loc[n, 'link'])
             webbrowser.open(link_music, new=2)
             try:
-                sp.start_playback(uris=['spotify:track:3AzjcOeAmA57TIOr9zF1ZW'])
+                sp.start_playback(uris=['spotify:track:3AzjcOeAmA57TIOr9zF1ZW']) #hardcoded for demo purposes
             except:
                 pass
         else:
